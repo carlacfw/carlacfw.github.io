@@ -1,8 +1,10 @@
 body {
-  background-color: rgba(255, 255, 0, 0.22);
-  font-family: cursive;
-  color: navy;
-  }
+    background-color: rgba(255, 255, 0, 0.22);
+    font-family: cursive;
+    color: navy;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 a {
   color: #59acee;
 }
@@ -12,3 +14,4 @@ h1 {
   font-family: cursive;
   color: navy;
 }
+  
