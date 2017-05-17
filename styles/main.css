@@ -1,0 +1,24 @@
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  padding-left: 60px;
+}
+a {
+  color: #000000;
+  padding: 10px;
+
+}
+.footer {
+padding-top: 15%;
+padding-left: 30px;
+
+}
