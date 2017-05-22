@@ -5,6 +5,7 @@
   text-align: center;
   font-size: 50px;
   font-family: 'Playfair Display', serif;
+  color: #696969;
 }
 .headerc1 {
   padding-top: 30px;
@@ -12,35 +13,37 @@
   text-align: center;
   font-size: 20px;
   font-family: 'Playfair Display', serif;
-  font-weight: lighter;
+  font-weight:normal;
+  color: #696969;
 }
 
 .section {
-  padding: 8rem 0 7rem;
+  padding:10px;
   text-align: center;
 }
 
 .container {
   font-family: 'Playfair Display', serif;
   font-size: 30px;
-  padding-left: 60px;
+
 }
 a {
-  color: #000000;
   padding: 10px;
-
+  color: #696969;
 }
 .footer {
 padding-top: 15%;
 padding-left: 30px;
+color: #696969;
 
 }
 .values {
   background-image: url(back.jpg);
     background-size: cover;
 }
+
 .home {
-  color: #000000;
+  color: #696969;
   padding: 30px;
   font-weight: bold;
   font-size: 30px;
@@ -50,4 +53,14 @@ padding-left: 30px;
   font-family: 'Playfair Display', serif;
   font-size: 25px;
   padding: 25px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  color: #696969;
+  border-color: #DB7093;
+  margin: 20px;
+}
+.borda {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #DB7093;
 }
