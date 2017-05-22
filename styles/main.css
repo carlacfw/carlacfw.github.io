@@ -11,7 +11,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Playfair Display', serif;
   font-weight:normal;
   color: #696969;
@@ -30,9 +30,10 @@
 a {
   padding: 10px;
   color: #696969;
+  font-family: 'Playfair Display', serif;
 }
 .footer {
-padding-top: 15%;
+padding-top: 30px;
 padding-left: 30px;
 color: #696969;
 
@@ -51,16 +52,21 @@ color: #696969;
 }
 .content {
   font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-size: 15px;
   padding: 25px;
   border-top-style: solid;
   border-bottom-style: solid;
   color: #696969;
   border-color: #DB7093;
-  margin: 20px;
+  margin: 50px;
 }
 .borda {
   border-top-style: solid;
   border-bottom-style: solid;
   border-color: #DB7093;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.description {
+  padding-top: 10px;
 }
