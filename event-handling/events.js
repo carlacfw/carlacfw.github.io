@@ -8,6 +8,7 @@ function start () {
   // when you mouse over it.
   one()
   two()
+  three()
 // Your turn! Create a new function called `two`, then call it from here.
 }
 
@@ -26,10 +27,12 @@ function two() {
   two.addEventListener('mouseenter', makeGreen)
   two.addEventListener('mouseleave', makeWhite)
 }
-
-
 // CREATE FUNCTION three HERE
+function three() {
+  three.addEventListener('mouseenter', makeRed)
+  three.addEventListener('mouseleave', makeWhite)
 
+}
 // CREATE FUNCTION four HERE
 
 // Changes the background color of event's target
