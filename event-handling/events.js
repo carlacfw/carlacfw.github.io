@@ -34,7 +34,11 @@ function three() {
 
 }
 // CREATE FUNCTION four HERE
+function four() {
+  four.addEventListener('click', makeBlack)
+  four.addEventListener('click', makeWhite)
 
+}
 // Changes the background color of event's target
 function makeBlue (evt) {
   evt.target.style.backgroundColor = 'blue'
