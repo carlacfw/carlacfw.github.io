@@ -38,7 +38,7 @@ function three() {
 }
 // CREATE FUNCTION four HERE
 function four() {
-  var three = document.getElementById('three')
+  var four = document.getElementById('four')
   four.addEventListener('click', makeBlack)
   four.addEventListener('mouseleave', makeWhite)
 
