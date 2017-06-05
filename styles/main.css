@@ -25,26 +25,56 @@
   padding:10px;
   text-align: center;
 }
+.buttonStyle1{
+  color: #696969;
+border: solid 5px #696969;
+margin: 5px;
+text-decoration: none;
+display: inline-flex;
+font-size: 55px;
+box-sizing: border-box;
+text-align: center;
+font-weight: bolder;
+
+
+
+}
+.buttonStyle2 {
+  color: #696969;
+border: solid 5px #696969;
+margin: 5px;
+text-decoration: none;
+display: inline-flex;
+font-size: 55px;
+box-sizing: border-box;
+text-align:center;
+font-weight: bolder;
+
+}
 
 .container {
   font-family: 'Playfair Display', serif;
   font-size: 25px;
-
 }
+
 a {
   padding: 10px;
   color: #696969;
   font-family: 'Playfair Display', serif;
+  text-decoration: none;
 }
+
 .footer {
 padding-top: 30px;
 padding-left: 30px;
 color: #696969;
-
+text-align: left;
 }
+
 .values {
   background-image: url(back.jpg);
     background-size: cover;
+    padding: 80px;
 }
 
 .home {
@@ -78,3 +108,12 @@ color: #696969;
 .paragraph{
 text-align: center;
 }
+.technical {
+text-align: center;
+font-size: 20px;
+}
+
+.reflection {
+  text-align: center;
+  font-size: 20px;
+  }
