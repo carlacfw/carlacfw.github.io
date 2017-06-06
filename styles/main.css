@@ -1,14 +1,23 @@
 @media only screen and (max-device-width:480px){
        /* styles for mobile browsers smaller than 480px; (iPhone) */
 .content {
-  margin: 3px;
+  margin: 0px;
   padding: 1px;
   position: relative;
 }
 .footer {
   padding-left: 0px;
 }
-
+.button + button-icon {
+  text-align: left;
+  position: relative;
+}
+.container {
+  font-size: 13px;
+}
+.header + h2{
+  font-size: 10px;
+}
 }
 
 
@@ -132,7 +141,7 @@ text-align: left;
   border-color: #DB7093;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin: 10px;
+  margin: 1px;
 }
 .description {
   padding-top: 10px;
