@@ -4,21 +4,28 @@
   margin: 0px;
   padding: 1px;
   position: relative;
-  
+  text-align: right;
+
 }
 
 .button + button-icon {
   text-align: right;
   position: relative;
 }
-.container {
-  font-size: 13px;
-}
 
 .headerc1 {
   text-align: right;
 }
+.buttonStyle1 {
+font-size: 13px;
+margin: 1px;
 }
+
+.buttonStyle2 {
+font-size: 13px;
+margin: 1px;
+}
+}/*finish media quary*/
 
 .header {
   padding-top: 30px;
@@ -88,9 +95,9 @@ a {
 
 .footer {
 padding-top: 30px;
-padding-left: 30px;
+
 color: #696969;
-text-align: left;
+
 }
 .footer ul{
   list-style-type: none;
@@ -99,6 +106,7 @@ text-align: left;
 .values {
   background-image: url(back.jpg);
     background-size: cover;
+    padding: 25px;
 
 }
 
@@ -117,7 +125,8 @@ text-align: left;
   border-bottom-style: solid;
   color: #696969;
   border-color: #DB7093;
-  margin: 50px;
+  margin: 40px;
+  text-align: justify;
 }
 .borda {
   border-top-style: solid;
@@ -134,11 +143,11 @@ text-align: left;
 text-align: center;
 }
 .technical {
-text-align: center;
+text-align: right;
 font-size: 20px;
 }
 
 .reflection {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   }
