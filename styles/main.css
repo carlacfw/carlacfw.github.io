@@ -1,3 +1,31 @@
+@media only screen and (max-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+.content {
+  margin: 5px;
+  position: relative;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .header {
   padding-top: 30px;
@@ -22,7 +50,7 @@
 }
 
 .section {
-  padding:10px;
+
   text-align: center;
 }
 .buttonStyle1{
@@ -31,7 +59,7 @@ border: solid 5px #696969;
 margin: 5px;
 text-decoration: none;
 display: inline-flex;
-font-size: 55px;
+font-size: 40px;
 box-sizing: border-box;
 text-align: center;
 font-weight: bolder;
@@ -45,7 +73,7 @@ border: solid 5px #696969;
 margin: 5px;
 text-decoration: none;
 display: inline-flex;
-font-size: 55px;
+font-size: 40px;
 box-sizing: border-box;
 text-align:center;
 font-weight: bolder;
@@ -55,6 +83,8 @@ font-weight: bolder;
 .container {
   font-family: 'Playfair Display', serif;
   font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 a {
@@ -74,7 +104,7 @@ text-align: left;
 .values {
   background-image: url(back.jpg);
     background-size: cover;
-    padding: 80px;
+
 }
 
 .home {
