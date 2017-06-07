@@ -30,9 +30,18 @@
   color: #696969;
 }
 
+.technical ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
 .reflection a {
   font-size: 30px;
   color: #696969;
+}
+.reflection ul {
+  list-style-position: inside;
+  text-align: center;
 }
 
 .container  {
@@ -42,12 +51,11 @@
   padding-bottom: 30px;
   text-align: center;
   border-style: dotted;
-  border-color: #800040;
-  color: #800040;
+  border-color: #993d00;
   font-weight: bolder;
 }
 .container a {
-    color: #800040;
+    color: #993d00;
 }
 
 a {
@@ -58,7 +66,7 @@ a {
 }
 
 .footer  {
-padding-top: 30px;
+padding-top: 60px;
 color: #696969;
 
 }
@@ -88,7 +96,7 @@ color: #696969;
   border-top-style: solid;
   border-bottom-style: solid;
   color: #696969;
-  border-color: #DB7093;
+  border-color: #993d00;
   margin: 40px;
   text-align: justify;
   position: relative;
@@ -127,3 +135,6 @@ text-align: center;
     text-align: left;
   }
   /*end t6 JS*/
+.background {
+  background: linear-gradient(to top left, #ffcc99 42%, #ff6699 100%);
+}

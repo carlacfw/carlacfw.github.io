@@ -29,6 +29,7 @@ board.cells = [{
 
 function startGame () {
   // Don't remove this function call: it makes the game work!
+for (var i = 0; i < cells.length; i++)
   lib.initBoard()
 }
 
