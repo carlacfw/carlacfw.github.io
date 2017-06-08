@@ -17,14 +17,6 @@
   color: #696969;
 }
 
-.row {
-  padding: 25px;
-}
-
-.section {
-  text-align: center;
-}
-
 .technical a {
   font-size: 30px;
   color: #696969;
@@ -77,6 +69,7 @@ a {
   background-image: url(back.jpg);
     background-size: cover;
     padding: 50px;
+    text-align: center;
 }
 
 .contain a{
