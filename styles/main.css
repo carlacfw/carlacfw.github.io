@@ -79,6 +79,16 @@ a {
     padding: 50px;
 }
 
+.contain a{
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  color: #99004d;
+  text-align: center;
+  font-weight: bolder;
+padding: 0;
+
+
+}
 .home  {
   color: #696969;
   padding: 30px;
@@ -95,7 +105,7 @@ a {
   border-top-style: solid;
   border-bottom-style: solid;
   color: #696969;
-  border-color: #993d00;
+  border-color: #99004d;
   margin: 5px;
   text-align: justify;
   position: relative;
@@ -103,7 +113,7 @@ a {
 .borda {
   border-top-style: solid;
   border-bottom-style: solid;
-  border-color: #DB7093;
+  border-color: #99004d;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 1px;
