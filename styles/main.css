@@ -46,7 +46,7 @@
 
 .container  {
   font-family: 'Playfair Display', serif;
-  font-size: 40px;
+  font-size: 25px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -65,14 +65,13 @@ a {
   text-decoration: none;
 }
 
-.footer  {
-padding-top: 60px;
-color: #696969;
 
-}
-.footer ul{
+.footer {
   list-style-type: none;
+  padding-top: 100px;
+  color: #696969;
 }
+
 
 .values {
   background-image: url(back.jpg);
