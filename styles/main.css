@@ -10,7 +10,7 @@
   .footer {
 
     padding-top: 100px;
-    padding-left: 18px;
+  /*  padding-left: 18px;*/
     color: #696969;
   }
   .cases {
@@ -30,7 +30,7 @@ padding: 100px;
 text-align: center;
    }
   .footer {
-    padding-top: 30%;
+    padding-top: 15%;
     padding-left: 20px;
     color: #696969;
   }
@@ -52,10 +52,7 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
-.button {
-  font-size: 15px;
-  border: 2px solid #006666;
-}
+
 .header h2 {
   font-size: 30px;
   padding-bottom: 70px;
@@ -181,4 +178,11 @@ text-align: center;
   /*end t6 JS*/
 .background {
   background: linear-gradient(to bottom, #339966 -1%, #99ffcc 42%);
+}
+.icon {
+  height: 3em;
+  width: 3em;
+  margin: 10px;
+  vertical-align: middle;
+  text-align: center;
 }
