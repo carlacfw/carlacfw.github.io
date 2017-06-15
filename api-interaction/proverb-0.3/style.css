@@ -1,0 +1,28 @@
+body {
+  background-color: darkgray;
+  text-align: center;
+}
+.texts {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 50%;
+  margin-top: 2rem;
+  background-color: white;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.28);
+}
+.newProverb {
+  box-shadow: 1px 1px 5px rgba(173,216,230,0.18);
+}
+.buttonActions {
+}
+input {
+  position: relative;
+}
+.pSource {
+  font-weight: bold;
+  color: black;
+}
