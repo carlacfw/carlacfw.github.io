@@ -10,7 +10,6 @@
   .footer {
 
     padding-top: 100px;
-  /*  padding-left: 18px;*/
     color: #696969;
   }
   .cases {
@@ -183,6 +182,9 @@ text-align: center;
   height: 3em;
   width: 3em;
   margin: 10px;
-  vertical-align: middle;
+}
+
+/*index page*/
+footer {
   text-align: center;
 }
