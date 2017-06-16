@@ -184,6 +184,12 @@ text-align: center;
   width: 3em;
   margin: 10px;
 }
+.iconHome {
+  height: 45px;
+  width: 45px;
+  margin: 10px;
+
+}
 
 /*index page*/
 footer {
