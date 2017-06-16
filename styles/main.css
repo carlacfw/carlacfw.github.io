@@ -9,7 +9,7 @@
   }
   .footer {
 
-    padding-top: 100px;
+    padding-top: 15%;
     color: #696969;
   }
   .cases {
@@ -54,7 +54,8 @@ text-align: center;
 
 .header h2 {
   font-size: 30px;
-  padding-bottom: 70px;
+  padding-top: 2%;
+  padding-bottom: 4%;
 }
 
     }
