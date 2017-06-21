@@ -136,13 +136,13 @@ padding: 0;
 }
 .content {
   font-family: 'Playfair Display', serif;
-  padding: 25px;
+  padding: 15px;
   border-top-style: solid;
   border-bottom-style: solid;
   color: #696969;
   border-color: #008080;
   margin: 5px;
-  text-align: justify;
+  text-align: center;
   position: relative;
 }
 .footer {
@@ -206,4 +206,3 @@ footer {
 text-align: center;
 font-size: 13px;
 }
-
