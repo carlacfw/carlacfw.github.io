@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="UTF-8">
+
+  <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+
+  <title>Scope</title>
+
+
+</head>
+
+<body>
+  <div class="headerc1">
+
+    <h2>Scope in JavaScript</h2>
+
+  </div>
+  <div class="content">
+    <h4>What 'scope' is, and how it works in JavaScript</h4>
+    <p>Let's say that scope is the whole context inside a JavaScript file. We can define them as Global Scope and Local Scope.</p>
+    <p>Global Scope is this whole context, where we can declare variables, for example. And everything declared into the Gobal
+      Scope can be accessed for the others variables or functios declared inside it.
+    </p>
+    <p>Local Scope is declared after Global Scope, the easiest way to recognise it is because it is decalred inside curly braces.
+      Everything declared inside the curly braces are locally and cannot access or be accessed for/what is into the Global
+      Scope. It has it's own functions and variables and whatever you want to declare inside it and it will works only there,
+      it's an specific action for an specific function.
+    </p>
+    <pre>
+  <code class="language-javascript" data-lang="javascript"><span class="c1">// global scope</span>
+<span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="s1">'Todd'</span><span class="p">;</span></code>
+  </pre>
+    <pre><code class="language-javascript" data-lang="javascript"><span class="c1">//Scope A: Global scope out here</span>
+<span class="kd">var</span> <span class="nx">myFunction</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="c1">//Scope B: Local scope in here</span>
+<span class="p">};</span></code></pre>
+
+    <div class="source">
+      Source:<a href="https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope" />Everything you wanted
+      to know about JavaScript scope</a>
+    </div>
+
+
+
+  </div>
+  <footer>
+    <div class="home">
+      <a href="home-technical-blog.html"><img class="iconHome" src="https://www.frpromotora.com/Pagina-revenda-lojas/office-512.png"></a>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -18,12 +18,16 @@
   .header h2 {
     font-size: 20px;
   }
+  pre {
+  font-size: 10px;
+}
 }
 
   /* Larger than tablet */
   @media (min-width: 500px) {
    .values {
 background-image: url(resize.jpg);
+background-repeat: no-repeat;
 background-size: cover;
 padding: 100px;
 text-align: center;
@@ -33,6 +37,9 @@ text-align: center;
     padding-left: 20px;
     color: #696969;
   }
+  pre {
+  font-size: 15px;
+}
 
   }
 
@@ -195,3 +202,8 @@ text-align: center;
 footer {
   text-align: center;
 }
+.source {
+text-align: center;
+font-size: 13px;
+}
+
