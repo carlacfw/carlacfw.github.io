@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="calculator.js"></script>
+  <link href="calculator.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <link rel="icon" href="../styles/copyright-300x300.png">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class='container'>
+    <div id='calculator'>
+
+      <!-- TITLE -->
+
+      <div id='header'>
+        <h5>myCalculator</h5>
+      </div>
+      <!-- CALCULATING BOX -->
+
+      <div id='calcbox'>
+        <div id='answer'>0</div>
+        <div id='calculating'></div>
+      </div>
+
+      <!-- BUTTONS -->
+
+      <div id='buttons'>
+
+        <button class='red' value='ac' onclick="allClear()">AC</button>
+        <button class='red' value='ce' onclick="clearEntry()">CE</button>
+        <button id='equalButton' value='=' onclick="equal()">=</button>
+        <button value='.' onclick="dot()">.</button>
+
+        <button value='/' onclick="divide()">&divide;</button>
+        <button value='*' onclick="times()">x</button>
+        <button value='-' onclick="sub()">-</button>
+        <button value='+' onclick="sum()">+</button>
+      </div>
+      <!-- end buttons -->
+      <div id='numButtons'>
+        <button onclick='num(1)'>1</button>
+        <button onclick='num(2)'>2</button>
+        <button onclick='num(3)'>3</button>
+
+        <button onclick='num(4)'>4</button>
+        <button onclick='num(5)'>5</button>
+        <button onclick='num(6)'>6</button>
+
+        <button onclick='num(7)'>7</button>
+        <button onclick='num(8)'>8</button>
+        <button onclick='num(9)'>9</button>
+      </div>
+      <!-- end numButtons -->
+
+      <button id='zeroButton' onclick='num(0)'>0</button>
+
+    </div>
+    <!-- end calculator -->
+  </div>
+  <!-- end container -->
+  <footer>
+    <div class="home">
+      <a href="../blog/home-technical-blog.html"><img class="iconHome" src="https://www.frpromotora.com/Pagina-revenda-lojas/office-512.png"></a>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
